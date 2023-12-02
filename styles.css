@@ -1,0 +1,99 @@
+/* OBFUSCATED BY CSSOBFUSCATOR.COM at 2023/12/02 07:18:57 */
+#first p {
+  display: inline-block;
+}
+#h3,
+#maincontact,
+#chalets,
+[class~="chalet"] {
+  display: flex;
+}
+#first p {
+  width: 50%;
+}
+header,
+#group1 label {
+  display: block;
+}
+#chalets p {
+  width: 65%;
+}
+footer,
+header,
+nav li,
+#first {
+  text-align: center;
+}
+header {
+  background-image: url("images/swiss-valley.jpg");
+}
+#h3,
+[class~="chalet"],
+form {
+  flex-direction: column;
+}
+#contact p {
+  width: 75%;
+}
+header {
+  height: 200px;
+}
+#first {
+  margin-bottom: 0.3125in;
+}
+header {
+  background-repeat: no-repeat;
+}
+[class~="chalet"],
+#maincontact {
+  align-items: center;
+}
+#chalets {
+  flex-direction: row;
+}
+#chalets {
+  align-content: center;
+}
+#group1 input {
+  width: 15pc;
+}
+header {
+  background-size: cover;
+}
+fieldset,
+#group1 input {
+  margin-bottom: 1.25pc;
+}
+#maincontact {
+  justify-content: center;
+}
+#contact {
+  display: inline-block;
+}
+#contact {
+  width: 25%;
+}
+ul {
+  display: flex;
+}
+ul {
+  justify-content: space-around;
+}
+footer {
+  display: block;
+}
+footer {
+  background-color: beige;
+}
+form {
+  display: flex;
+}
+#my-submit {
+  margin-top: 30pt;
+}
+nav li {
+  list-style-type: none;
+}
+form {
+  width: 15.625pc;
+}

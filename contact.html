@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>The Right Hook | Contact</title>
+    <meta name="author" content="Anish Joglekar" />
+    <meta name="description" content="Contact page pf resort website" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>The Right Hook</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Accommodations</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="maincontact">
+        <section id="contact">
+          <h2>Contact Us</h2>
+          <p>
+            Please reach out to us with any questions or concerns. We are happy
+            to help you plan your dream vacation with us! Required fields marked
+            with a *
+          </p>
+          <img
+            src="images/swiss-peak.jpg"
+            alt="swiss valley"
+            width="350"
+            height="455"
+            id="swissvalley"
+          />
+        </section>
+        <form
+          action="https://wp.zybooks.com/form-viewer.php"
+          method="POST"
+          target="_blank"
+        >
+          <div id="group1">
+            <label for="full-name">Name*</label>
+            <input type="text" name="full-name" id="full-name" required />
+            <label for="my-email">Email*</label>
+            <input type="email" name="my-email" id="my-email" required />
+            <label for="my-phone">Phone*</label>
+            <input type="tel" name="my-phone" id="my-phone" required />
+          </div>
+          <fieldset>
+            <legend>Preferred Method of Contact</legend>
+            <input type="radio" name="contact-pref" id="pref-email" />
+            <label for="pref-email">Email</label>
+            <input type="radio" name="contact-pref" id="pref-phone" />
+            <label for="pref-phone">Phone</label>
+          </fieldset>
+          <label for="my-comments">Comments</label>
+          <textarea name="my-comments" id="my-comments"></textarea>
+          <input
+            type="submit"
+            name="my-submit"
+            id="my-submit"
+            value="Submit Form"
+          />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright &copy; The Right Hook</p>
+      <p>This site is for educational purposes only</p>
+    </footer>
+  </body>
+</html>
